@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head><title>Wildlife Sanctuary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header-bg-ws">
+    <img src="Images/Entry_gate_Dalma_Wildlife.jpg" alt="Dalma Wildlife Sanctuary">
+    <h1>Dalma Wildlife Sanctuary</h1>
+  </header>
+    <nav class="nav-blue">
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="#">Animals</a></li>
+      <li><a href="#">Sanctuary</a></li>
+      <li><a href="/donate.html">Donate</a></li>
+    </ul>
+  </nav>
+     <section>
+         <article>
+             <h1>Why Donate</h1>
+             <p>Donating to the Dalma Wildlife Sanctuary is a powerful and meaningful way to contribute to the preservation of our planet's precious biodiversity. This sanctuary stands as a vital refuge for a wide array of wildlife species, providing them with a safe haven to thrive in their natural habitats. By supporting Dalma, you are directly investing in the conservation and protection of diverse ecosystems, ranging from lush forests to crucial wetlands and grasslands. Your donation aids in crucial initiatives such as habitat restoration, wildlife rehabilitation, and conservation research, all of which are instrumental in maintaining ecological balance. Furthermore, your generosity helps fund educational programs, enabling the sanctuary to educate the public about the significance of wildlife conservation. By donating to Dalma Wildlife Sanctuary, you are contributing to the broader effort to safeguard our planet's rich natural heritage for future generations, ensuring that these invaluable ecosystems and their inhabitants continue to flourish and inspire awe for years to come. Your support makes a tangible difference in the fight to preserve our world's irreplaceable natural treasures.</p>
+         </article>
+    
+    <section id="section2">
+         <form action="https://aq3m1uypll.execute-api.eu-west-1.amazonaws.com/api/donate" method="post" notes from="emailaddress">
+             <h3>If you want to support us, first fill out the form:</h3>
+         <label for="fullName">Full Name: </label><input type="text" id="fullName" name="fullName"  required><br>
+        <label for="emailAddress">Email Address: </label><input type="email" id="emailAddress" name="emailAddress" required><br>
+        <label for="number">Mobile Number: </label><input type="number" id="number" name="number" required><br>
+             <p>Are you over 18?</p>
+             <input type="radio" id="Yes" name="Age" value="Yes"><label for="Yes"> Yes</label><br>
+             <input type="radio" id="No" name="Age" value="No"><label for="No"> No</label><br>
+             <input type="submit" value="Donate Now">
+        </form>
+        </section>
+    </section>
+<footer>
+    <p id='copyright'>&copy; 2023 Blue poison dart frog - Wildlife Sanctuary- Olha Zaitseva</p>
+  </footer>
+</body>
